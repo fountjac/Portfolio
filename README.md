@@ -17,7 +17,6 @@ As I’m running my project analysis  I’m sure I will come up with ideas for f
 ### Write clear, efficient, and well-documented R programs:
 All of my work that I present to you should be an example of this objective.
 
-
 ## Growth
 For each of the learning objectives I will add some description of what I struggled with and how I’ve overcome issues, or just write a section detailing overall what I've learned.
 
@@ -26,3 +25,6 @@ For each of the learning objectives I will add some description of what I strugg
 * What was the easiest part of the class for you? Explain why
 * What part of the class surprised or interested you the most? Explain why.
 * Give one piece of advice to a student just beginning a semester of STA 418/518 that will help them be successful in learning.
+
+References:
+[Project](https://github.com/fountjac/ProjectDnD)
