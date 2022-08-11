@@ -1,7 +1,7 @@
 # Final Grade Reflection
 
 ## What Grade Did You Earn? State it clearly in one sentence. You can include plus/minus modifiers; see below about those.
-I'm giving myself a solid B.
+I'm giving myself a solid B; I met all of the objectives, but I don't think I exceeded any expectations.
 
 ## How Did You Demonstrate That Grade? 
 ### Import, manage, and clean data:
@@ -30,7 +30,7 @@ allchars %>%
 ````
 
 ### Create graphical displays and numerical summaries of data for exploratory analysis and presentation:
-Bar Chart for level range distribution: 
+Graphical Display; Bar Chart for level range distribution: 
 ```{r Distribution of Adventurer Levels}
 allchars %>%
     #Ready Data
@@ -44,15 +44,18 @@ allchars %>%
 	labs(title="Distribution of Adventurers by Level Range",
 	x="Level Range",y="Count")
 ```
-Five Number Summary for each ability score:
+![levelBarChart](https://github.com/fountjac/Portfolio/blob/main/LevelBarChart.png)
+
+Exploratory Analysis; Five Number Summary for each ability score:
 ```{r Five Number Summaries of Stats}
-numSums <-allchars %>%
+allchars %>%
 	subset(level<2)%>% #for some reason =1 wasn't properly subsetting
 	summarise(Variable=c("Min","Q1","Median","Mean","Q3","Max")
 			  ,STR=summary(Str),DEX=summary(Dex),
 		   CON=summary(Con),INT=summary(Int),
 		   WIS=summary(Wis),CHA=summary(Cha))
 ```
+![5numSum](https://github.com/fountjac/Portfolio/blob/main/5numSum.png)
 
 ### Write R programs for simulations from probability models and randomization-based experiments:
 To demonstrate using probability models I've worked on Activity 11:
@@ -77,20 +80,14 @@ allchars %>%
 	sample_n(10)%>%
 	select(processedRace, class, Str:Cha)
 ```
+![RandomChars](https://github.com/fountjac/Portfolio/blob/main/RandomChars.png)
+
 
 ### Use source documentation and other resources to troubleshoot and extend R programs:
 Throughout this project Google has been my best friend. We've had a long friendship through other coding classes and I've applied the troubleshooting skills I've learned from coding in SAS to coding in R. I usually find my solution by searching the problem in Google, reading through examples of other people's code and figuring out how I need to change my code to accomplish what their code is demonstrating. 
 
-To extend R programs I've loaded tidyverse.
+To extend the R program I've loaded tidyverse.
 
 ### Write clear, efficient, and well-documented R programs:
 The other examples throughout the portfolio should demonstrate this. My code has short and neccessary comments aiming to ensure others can tell what my code is accomplishing.
 
-
-
-
-
-## What Else? There may be some other criteria that figures into your grade request that is not explictly listed in the syllabus. 
-If so, state the criteria you’re thinking of, explain why they are useful criteria for your grade determination, and then explain
-how well you met those criteria (and provide evidence in the artifacts, if applicable). As with the syllabus course objectives, be focused,
-specific, and thorough — and refer to specific artifacts that provide evidence.
