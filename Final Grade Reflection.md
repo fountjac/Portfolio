@@ -3,9 +3,6 @@
 ## What Grade Did You Earn? State it clearly in one sentence. You can include plus/minus modifiers; see below about those.
 I'm giving myself a solid B.
 
-
-
-
 ## How Did You Demonstrate That Grade? 
 ### Import, manage, and clean data:
 My main dataset is large and has a lot of variables, so I will be making subsets as I work through the analysis.
