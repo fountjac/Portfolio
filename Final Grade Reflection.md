@@ -1,7 +1,7 @@
 # Final Grade Reflection
 
 ## What Grade Did You Earn? State it clearly in one sentence. You can include plus/minus modifiers; see below about those.
-I'm giving myself a solid B; I met all of the objectives, but I don't think I exceeded any expectations.
+I believe I earned an A-; I met the course objectives, but I could have done better.
 
 ## How Did You Demonstrate That Grade? 
 ### Import, manage, and clean data:
@@ -90,4 +90,7 @@ To extend the R program I've loaded tidyverse.
 
 ### Write clear, efficient, and well-documented R programs:
 The other examples throughout the portfolio should demonstrate this. My code has short and neccessary comments aiming to ensure others can tell what my code is accomplishing.
+
+## What Else?
+I was a good teammate. When I finished the activities early I stuck around incase my teammates had any questions. I work quickly, so I was often able to get ahead of my team, but I would always pause what I was doing to assist others. 
 
