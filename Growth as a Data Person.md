@@ -18,3 +18,5 @@ improved substantially. I like committing updates and leaving comments, so I kno
 The third aspect is flexibility and the overall workflow of R. I’m starting to understand manipulating and transposing data better. 
 I really like how pipes work; especially how it gives coding in R a modular feel. It was a struggle to learn how to build code like this at first, 
 but now that I’ve gotten more comfortable with it I find it appealing. 
+
+Through this course I not only learned how to meet the course objectives coming from very little experience in R, but I also learned about GitHub. I'm interested in growing my skills in both of these programs and continue my journey as a data person.
